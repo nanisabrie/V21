@@ -10,6 +10,7 @@ handler.help = ['waifunsfw']
 handler.tags = ['nsfw']
 handler.command = /^(waifunsfw)$/i
 
+handler.owner = true
 handler.limit = true
 handler.nsfw = true
 
