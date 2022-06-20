@@ -6,10 +6,10 @@ let handler  = async (m, { conn }) => {
 handler.help = ['filebokep']
 handler.tags = ['nsfw']
 handler.command = /^(filebokep)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = false
-handler.group = true
+handler.group = false
 handler.nsfw = true
 
 handler.admin = false
